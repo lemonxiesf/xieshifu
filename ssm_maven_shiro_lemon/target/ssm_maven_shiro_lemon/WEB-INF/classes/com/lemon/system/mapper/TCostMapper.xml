@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.lemon.system.mapper.TCostMapper">
+    <resultMap id="BaseResult" type="com.lemon.pojo.TCost">
+        <id column="costId" jdbcType="INTEGER" property="costid"/>
+        <result column="costName" jdbcType="VARCHAR" property="costname"/>
+        <result column="costDesc" jdbcType="VARCHAR" property="costdesc"/>
+        <result column="costMark" jdbcType="VARCHAR" property="costmark"/>
+    </resultMap>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from t_cost
+        where costId = #{costid,jdbcType=INTEGER}
+    </delete>
+
+    <insert id="insert" parameterType="com.lemon.pojo.TCost">
+        insert into t_cost (costName, costDesc,
+                            costMark)
+        values (#{costname,jdbcType=VARCHAR}, #{costdesc,jdbcType=VARCHAR}, 0)
+    </insert>
+    <update id="updateByPrimaryKey" parameterType="com.lemon.pojo.TCost">
+        update t_cost
+        set costName = #{costname,jdbcType=VARCHAR},
+            costDesc = #{costdesc,jdbcType=VARCHAR}
+        where costId = #{costid,jdbcType=INTEGER}
+    </update>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResult">
+        select
+            costId,
+            costName,
+            costDesc,
+            costMark
+        from t_cost
+        where costId = #{costid,jdbcType=INTEGER}
+    </select>
+    <select id="selectAll" resultMap="BaseResult">
+        select
+            costId,
+            costName,
+            costDesc,
+            costMark
+        from t_cost
+        where costMark = 0
+    </select>
+
+    <select id="findCostByCostIdOrCostName" parameterType="com.lemon.pojo.TCost" resultMap="BaseResult">
+        select costId, costName, costDesc, costMark
+        from t_cost where costMark = 0
+        <if test="costid!=null">
+            and costId = #{costid}
+        </if>
+        <if test="costname!=null">
+            and costName like concat('%',#{costname},'%')
+        </if>
+    </select>
+
+    <update id="deleteMultiCost">
+        update
+        t_cost
+        set
+        costMark = 1
+        where
+            costId in
+            <foreach collection="ids" item="id" open="(" separator="," close=")">
+                #{id}
+            </foreach>
+    </update>
+
+</mapper>

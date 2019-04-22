@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lemon.system.mapper.TMenuMapper">
+
+    <resultMap id="BaseResultMap" type="com.lemon.pojo.TMenu">
+        <id column="menuId" jdbcType="INTEGER" property="menuid"/>
+        <result column="menuName" jdbcType="VARCHAR" property="menuname"/>
+        <result column="pId" jdbcType="INTEGER" property="pid"/>
+        <result column="url" jdbcType="VARCHAR" property="url"/>
+    </resultMap>
+
+    <select id="queryMenusByRoleId" resultMap="BaseResultMap">
+        select  t_menu.menuId,menuName, pId , url
+        from t_menu  left join role_menu
+        on t_menu.menuId = role_menu.menuId where role_menu.roleId=#{roleId}
+    </select>
+
+
+</mapper>

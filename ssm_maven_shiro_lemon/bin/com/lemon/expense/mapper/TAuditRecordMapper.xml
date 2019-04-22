@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lemon.expense.mapper.TAuditRecordMapper">
+    <resultMap id="BaseResultMap" type="com.lemon.pojo.TAuditRecord">
+        <id column="auditId" jdbcType="INTEGER" property="auditid"/>
+        <result column="expenseId" jdbcType="INTEGER" property="expenseid"/>
+        <result column="userId" jdbcType="INTEGER" property="userid"/>
+        <result column="auditState" jdbcType="VARCHAR" property="auditstate"/>
+        <result column="auditSugg" jdbcType="VARCHAR" property="auditsugg"/>
+        <result column="auditDate" jdbcType="TIMESTAMP" property="auditdate"/>
+    </resultMap>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_audit_record
+    where auditId = #{auditid,jdbcType=INTEGER}
+  </delete>
+    <insert id="insert" parameterType="com.lemon.pojo.TAuditRecord">
+    insert into t_audit_record ( expenseId, userId,
+      auditState, auditSugg, auditDate)
+    values ( #{expenseid,jdbcType=INTEGER}, #{userid,jdbcType=INTEGER},
+      #{auditstate,jdbcType=VARCHAR}, #{auditsugg,jdbcType=VARCHAR}, SYSDATE()
+      )
+  </insert>
+    <update id="updateByPrimaryKey" parameterType="com.lemon.pojo.TAuditRecord">
+    update t_audit_record
+    set expenseId = #{expenseid,jdbcType=INTEGER},
+      userId = #{userid,jdbcType=INTEGER},
+      auditState = #{auditstate,jdbcType=VARCHAR},
+      auditSugg = #{auditsugg,jdbcType=VARCHAR},
+      auditDate = #{auditdate,jdbcType=TIMESTAMP}
+    where auditId = #{auditid,jdbcType=INTEGER}
+  </update>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select auditId, expenseId, userId, auditState, auditSugg, auditDate
+    from t_audit_record
+    where auditId = #{auditid,jdbcType=INTEGER}
+  </select>
+    <select id="selectAll" resultMap="BaseResultMap">
+    select auditId, expenseId, userId, auditState, auditSugg, auditDate
+    from t_audit_record
+  </select>
+    <select id="findAuditRecordByExpenseId" resultMap="BaseResultMap">
+    select
+     auditId,
+     expenseId,
+     tar.userId,
+     auditState,
+     auditSugg,
+     auditDate,
+     tu.userName as username
+    from t_audit_record tar
+    left join t_users tu on tar.userId = tu.userId
+    where expenseId=#{expenseId}
+  </select>
+
+</mapper>

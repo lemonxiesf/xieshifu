@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:14:58:03 +0800] "GET /ssm/common/login HTTP/1.1" 200 1327 http-bio-8080-exec-1 209
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:14:58:03 +0800] "GET /ssm/resource/js/jquery-2.1.1.min.js HTTP/1.1" 200 84284 http-bio-8080-exec-2 34
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:14:58:03 +0800] "GET /ssm/resource/css/styles.css HTTP/1.1" 200 5421 http-bio-8080-exec-3 45
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:14:58:03 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:14:58:12 +0800] "GET /ssm/resource/js/jquery.min.map HTTP/1.1" 404 1011 http-bio-8080-exec-6 14
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:15:00:11 +0800] "POST /ssm/common/login HTTP/1.1" 200 1342 http-bio-8080-exec-8 153
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:15:00:11 +0800] "GET /ssm/resource/css/styles.css HTTP/1.1" 200 5421 http-bio-8080-exec-10 5
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:15:00:11 +0800] "GET /ssm/resource/js/jquery-2.1.1.min.js HTTP/1.1" 200 84284 http-bio-8080-exec-9 7
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:15:00:11 +0800] "GET /ssm/resource/js/jquery.min.map HTTP/1.1" 404 1011 http-bio-8080-exec-9 9
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:16:08:37 +0800] "POST /ssm/common/login HTTP/1.1" 200 1342 http-bio-8080-exec-7 100
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:16:08:37 +0800] "GET /ssm/resource/css/styles.css HTTP/1.1" 200 5421 http-bio-8080-exec-7 2
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:16:08:37 +0800] "GET /ssm/resource/js/jquery-2.1.1.min.js HTTP/1.1" 200 84284 http-bio-8080-exec-8 3
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:16:08:37 +0800] "GET /ssm/resource/js/jquery.min.map HTTP/1.1" 404 1011 http-bio-8080-exec-8 7
+0:0:0:0:0:0:0:1 - - [31/Dec/2018:23:52:47 +0800] "GET /ssm/resource/js/jquery.min.map HTTP/1.1" 404 1011 http-bio-8080-exec-9 33

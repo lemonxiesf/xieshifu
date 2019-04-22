@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lemon.system.mapper.TUsersMapper">
+    <resultMap id="BaseResultMap" type="com.lemon.pojo.TUsers">
+        <id column="userId" jdbcType="INTEGER" property="userid"/>
+        <result column="roleId" jdbcType="INTEGER" property="roleid"/>
+        <result column="userName" jdbcType="VARCHAR" property="username"/>
+        <result column="userSex" jdbcType="VARCHAR" property="usersex"/>
+        <result column="userAge" jdbcType="INTEGER" property="userage"/>
+        <result column="userPhone" jdbcType="VARCHAR" property="userphone"/>
+        <result column="userAccount" jdbcType="VARCHAR" property="useraccount"/>
+        <result column="userPwd" jdbcType="VARCHAR" property="userpwd"/>
+        <result column="userSalary" jdbcType="REAL" property="usersalary"/>
+        <result column="userMark" jdbcType="VARCHAR" property="usermark"/>
+        <result column="email" jdbcType="VARCHAR" property="email"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.lemon.pojo.TUsers">
+      insert into t_users (userId, roleId, userName,
+        userSex, userAge, userPhone,
+        userAccount, userPwd, userSalary,
+        userMark)
+      values (#{userid,jdbcType=INTEGER}, #{roleid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR},
+        #{usersex,jdbcType=VARCHAR}, #{userage,jdbcType=INTEGER}, #{userphone,jdbcType=VARCHAR},
+        #{useraccount,jdbcType=VARCHAR}, #{userpwd,jdbcType=VARCHAR}, #{usersalary,jdbcType=REAL},
+        0)
+    </insert>
+    <!--邮箱注册-->
+    <insert id="addUser" parameterType="com.lemon.pojo.TUsers">
+      insert into t_users (userId,userAccount,
+        email,initPassword,roleId,userMark,userStatus)
+      values (#{userid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR},
+      #{email,jdbcType=VARCHAR}, #{initPassword,jdbcType=VARCHAR},4,0,0)
+    </insert>
+    <!--修改成激活状态-->
+    <update id="updateActivate" parameterType="java.lang.String">
+      update t_users
+      set userStatus = 1, userPwd= #{initPassword}
+      where email = #{email,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.lemon.pojo.TUsers">
+      update t_users
+      set roleId = #{roleid,jdbcType=INTEGER},
+        userName = #{username,jdbcType=VARCHAR},
+        userSex = #{usersex,jdbcType=VARCHAR},
+        userAge = #{userage,jdbcType=INTEGER},
+        userPhone = #{userphone,jdbcType=VARCHAR},
+        userAccount = #{useraccount,jdbcType=VARCHAR},
+        userPwd = #{userpwd,jdbcType=VARCHAR},
+        userSalary = #{usersalary,jdbcType=REAL},
+        userMark = #{usermark,jdbcType=VARCHAR}
+      where userId = #{userid,jdbcType=INTEGER}
+    </update>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+      select userId, roleId, userName, userSex, userAge, userPhone, userAccount, userPwd,
+      userSalary, userMark
+      from t_users
+      where userId = #{userid,jdbcType=INTEGER}
+    </select>
+    <select id="selectAll" resultMap="BaseResultMap">
+      select userId, t_users.roleId, userName, userSex, userAge, userPhone, userAccount, userPwd,
+      userSalary, userMark,t.roleName as rolename
+      from t_users inner join t_role t
+      on t_users.roleId = t.roleId and userMark=0
+    </select>
+
+    <select id="findByAccount" resultMap="BaseResultMap">
+      select userId, roleId, userName, userSex, userAge, userPhone, userAccount, userPwd,
+      userSalary, userMark
+      from t_users where userAccount=#{userAccount}
+    </select>
+
+    <!--邮箱登陆-->
+    <select id="findByEmail" resultMap="BaseResultMap">
+      select userId, roleId, userName, userSex, userAge, userPhone, userPwd,
+      userSalary, userMark,email
+      from t_users where email=#{email}
+    </select>
+
+
+    <select id="findRoleByRoleId" resultMap="BaseResultMap">
+      select userId, t_users.roleId, userName, userSex, userAge, userPhone, userAccount, userPwd,
+      userSalary, userMark ,t_role.role as role
+      from t_users left join t_role on t_users.roleId = t_role.roleId and
+      roleid= #{roleid}
+    </select>
+
+    <select id="findUserByUserIdOrUserName" resultMap="BaseResultMap" parameterType="com.lemon.pojo.TUsers">
+        select userId, t_users.roleId, userName, userSex, userAge, userPhone, userAccount, userPwd,
+        userSalary, userMark,t.roleName as rolename
+        from t_users inner join t_role t
+        on t_users.roleId = t.roleId and userMark=0
+        <where>
+            <if test="userid!=null">
+                and userId=#{userid}
+            </if>
+            <if test="username!=null">
+                and userName like CONCAT('%',#{username},'%')
+            </if>
+        </where>
+    </select>
+
+
+    <update id="deleteMultiUser" parameterType="java.lang.Integer">
+        update t_users
+        set userMark=1
+        where userId in
+        <foreach collection="ck" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </update>
+
+
+    <update id="updateUser" parameterType="com.lemon.pojo.TUsers">
+        update t_users
+          set
+          roleId =#{roleid},
+          userName=#{username},
+           userSex=#{usersex},
+            userAge=#{userage},
+            userPhone=#{userphone},
+            userAccount=#{useraccount},
+            userPwd=#{userpwd},
+            userSalary=#{usersalary}
+            where
+            userId=#{userid}
+    </update>
+
+
+    <select id="selectNotIssue" resultMap="BaseResultMap">
+    select userId,userName as username
+      from t_users where
+      userMark=0 and userId not in
+    (select userid
+    from t_salary_record
+    where date_format(salaryMonth,'%Y-%m') =#{salarymonth})
+    </select>
+</mapper>

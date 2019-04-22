@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lemon.expense.mapper.TExpenseMapper">
+    <resultMap id="ResultExpenseAll" type="com.lemon.pojo.TExpense">
+        <id column="expenseId" jdbcType="INTEGER" property="expenseid"/>
+        <result column="userId" jdbcType="INTEGER" property="userid"/>
+        <result column="expenseName" jdbcType="VARCHAR" property="expensename"/>
+        <result column="expenseTotal" jdbcType="REAL" property="expensetotal"/>
+        <result column="expenseDate" jdbcType="TIMESTAMP" property="expensedate"/>
+        <result column="expenseState" jdbcType="VARCHAR" property="expensestate"/>
+        <result column="expenseDesc" jdbcType="VARCHAR" property="expensedesc"/>
+        <result column="imagePath" jdbcType="VARCHAR" property="imagePath"/>
+    </resultMap>
+
+    <resultMap id="tExpenseDetail" type="com.lemon.pojo.TExpenseDetail">
+        <id property="detailid" column="detailid"/>
+        <result property="expenseid" column="expenseid"/>
+        <result property="costid" column="costid"/>
+        <result property="detaildesc" column="detaildesc"/>
+        <result property="detailmoney" column="detailmoney"/>
+    </resultMap>
+
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from t_expense
+        where expenseId = #{expenseid,jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" parameterType="com.lemon.pojo.TExpense">
+        insert into t_expense (expenseId, userId, expenseName,
+                               expenseTotal, expenseDate, expenseState,
+                               expenseDesc,imagePath)
+        values (#{expenseid,jdbcType=INTEGER}, #{userid,jdbcType=INTEGER}, #{expensename,jdbcType=VARCHAR},
+                #{expensetotal,jdbcType=REAL}, now(), #{expensestate,jdbcType=VARCHAR},
+                #{expensedesc,jdbcType=VARCHAR},#{imagePath,jdbcType=VARCHAR})
+    </insert>
+    <update id="updateByPrimaryKey" parameterType="com.lemon.pojo.TExpense">
+        update t_expense
+        set
+            expenseState = #{expensestate,jdbcType=VARCHAR}
+        where expenseId = #{expenseid,jdbcType=INTEGER}
+    </update>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultExpenseAll">
+        select
+            expenseId,
+            userId,
+            expenseName,
+            expenseTotal,
+            expenseDate,
+            expenseState,
+            expenseDesc,
+            imagePath
+        from t_expense
+        where expenseId = #{expenseid,jdbcType=INTEGER}
+    </select>
+
+    <select id="selectAll" resultMap="ResultExpenseAll">
+        select
+            expenseId,
+            userId,
+            expenseName,
+            expenseTotal,
+            expenseDate,
+            expenseState,
+            expenseDesc,
+            imagePath
+        from t_expense
+    </select>
+
+    <select id="findExpenseByUserId" resultMap="ResultExpenseAll">
+        select
+            expenseId,
+            t_expense.userId,
+            expenseName,
+            expenseTotal,
+            expenseDate,
+            expenseState,
+            expenseDesc,
+            imagePath,
+            u.userName as username
+        from t_expense
+            left join t_users u on t_expense.userId = u.userId
+        where u.userId = #{userid}
+    </select>
+
+    <!--全部报销单条件查询-->
+    <select id="expenseCondition" resultMap="ResultExpenseAll">
+        select
+          expenseid,
+          t_expense.userid,
+          expensename,
+          expensetotal,
+          expensedate,
+          expensestate,
+          expensedesc,
+          u.username as username,
+        imagePath
+        from t_expense
+        left join t_users u
+        on t_expense.userId = u.userId
+        <where>
+            expenseState != 0
+            <if test="username != null and username !='' ">
+                and username like concat('%',#{username},'%')
+            </if>
+            <if test="expensename != null and expensename !='' ">
+                and expenseName like concat('%',#{expensename},'%')
+            </if>
+            <if test="beginDate != null and beginDate != '' ">
+                and unix_timestamp(expenseDate) &gt;= unix_timestamp(#{beginDate})
+            </if>
+            <if test="endDate != null and endDate != '' ">
+                and unix_timestamp(expenseDate) &lt;= unix_timestamp(#{endDate})
+            </if>
+            <if test="expensestate != null and expensestate != '' ">
+                and expensestate = #{expensestate}
+            </if>
+        </where>
+    </select>
+    <!--经理审批及条件查询-->
+    <select id="managerAudit" resultMap="ResultExpenseAll">
+        select
+        expenseId,
+        t_expense.userId,
+        expenseName,
+        expenseTotal,
+        expenseDate,
+        expenseState,
+        expenseDesc,
+        u.userName as username,
+        imagePath
+        from
+        t_expense
+        left join t_users u on t_expense.userId = u.userId
+        <where>
+            expenseState = 1
+            <if test="username != null and username !='' ">
+                and username like concat('%',#{username},'%')
+            </if>
+            <if test="expensename != null and expensename !='' ">
+                and expenseName like concat('%',#{expensename},'%')
+            </if>
+            <if test="beginDate != null and beginDate != '' ">
+                and unix_timestamp(expenseDate) &gt;= unix_timestamp(#{beginDate})
+            </if>
+            <if test="endDate != null and endDate != '' ">
+                and unix_timestamp(expenseDate) &lt;= unix_timestamp(#{endDate})
+            </if>
+            <if test="expensestate != null and expensestate != '' ">
+                and expensestate = #{expensestate}
+            </if>
+        </where>
+    </select>
+    <!--跟据报销单编号查找报销明细及费用名-->
+    <select id="findExpenseDetailByExpenseId" resultMap="tExpenseDetail">
+        select
+            ted.detailid,
+            ted.expenseid,
+            ted.detaildesc,
+            ted.detailmoney,
+            ted.costId,
+            t2.costName as costname
+        from
+            t_expense_detail ted
+            left join t_cost t2 on ted.costId = t2.costId
+        where ted.expenseid = #{expenseid}
+    </select>
+
+    <!--查询最后一个添加的报销单id-->
+    <select id="selectLastId" resultType="Integer">
+        select last_insert_id()
+    </select>
+
+    <select id="financeAudit" resultMap="ResultExpenseAll">
+        select
+        expenseId,
+        t_expense.userId,
+        expenseName,
+        expenseTotal,
+        expenseDate,
+        expenseState,
+        expenseDesc,
+        u.userName as username
+        from
+        t_expense
+        left join t_users u on t_expense.userId = u.userId
+        <where>
+            expenseState = 2
+            <if test="username != null and username !='' ">
+                and username like concat('%',#{username},'%')
+            </if>
+            <if test="expensename != null and expensename !='' ">
+                and expenseName like concat('%',#{expensename},'%')
+            </if>
+            <if test="beginDate != null and beginDate != '' ">
+                and unix_timestamp(expenseDate) &gt;= unix_timestamp(#{beginDate})
+            </if>
+            <if test="endDate != null and endDate != '' ">
+                and unix_timestamp(expenseDate) &lt;= unix_timestamp(#{endDate})
+            </if>
+            <if test="expensestate != null and expensestate != '' ">
+                and expensestate = #{expensestate}
+            </if>
+        </where>
+    </select>
+
+</mapper>

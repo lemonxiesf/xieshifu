@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+
+
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+    <!--自定义表单验证过滤器-->
+    <bean id="authenticationFilter" class="com.lemon.utils.shiro.CustomFormAuthenticationFilter">
+        <property name="usernameParam" value="username"/>
+        <property name="passwordParam" value="password"/>
+    </bean>
+    <!--安全管理器-->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="customReam"/>
+    </bean>
+
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <!--shiro核心安全接口-->
+        <property name="securityManager" ref="securityManager"/>
+        <!--认证失败跳转的地址-->
+        <property name="loginUrl" value="/common/login"/>
+        <!--未认证时要跳转的连接-->
+        <property name="unauthorizedUrl" value="unauthorizedUrl"/>
+        <!--验证成功跳转的地址-->
+        <property name="successUrl" value="/common/index"/>
+
+        <property name="filters">
+            <map>
+                <entry key="logout" value-ref="logoutFilter"/>
+            </map>
+        </property>
+        <!--shiro连接约束的配置-->
+        <property name="filterChainDefinitions">
+            <value>
+                <!--对静态资源允许匿名访问-->
+                /resource/assets/** = anon
+                /resource/bootstrap/** = anon
+                /resource/css/** = anon
+                /resource/fonts/** = anon
+                /resource/img/** = anon
+                /resource/js/** = anon
+                /resource/My97DatePicker/** = anon
+                /resource/validation/** = anon
+                /resource/echart/** = anon
+                /resource/images/** = anon
+                /resource/bootstrap-fileinput/** = anon
+                /email/** = anon
+                <!--可匿名的访问路径-->
+                <!--/common/login = anon-->
+                <!--剩余其他路径,必须验证通过才可以访问-->
+                /logout = logout
+                /** = authc
+            </value>
+        </property>
+    </bean>
+    <!--<bean id="systemOutFilter" class="com.lemon.utils.shiro.SystemOutFilter"/>-->
+    <bean id="logoutFilter" class="org.apache.shiro.web.filter.authc.LogoutFilter">
+        <property name="redirectUrl" value="/common/login"/>
+    </bean>
+
+
+    <!--自定义Realm-->
+    <bean id="customReam" class="com.lemon.utils.shiro.CustomReam"/>
+
+    <aop:config proxy-target-class="true">
+    </aop:config>
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+
+
+</beans>

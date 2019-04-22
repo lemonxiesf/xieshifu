@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm_maven_shiro_lemon:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/resources/beans.xml" line="19" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f26b91ca-75dd-4770-a7f2-ee72655ac83c" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ssm_maven_shiro_lemon$TestAuto_test1.ic" NAME="TestAuto.test1 Coverage Results" MODIFIED="1538414586008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.lemon.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ssm_maven_shiro_lemon$tomcat8.ic" NAME="tomcat8 Coverage Results" MODIFIED="1539769332683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ssm_maven_shiro_lemon$GeneratorSqlmap.ic" NAME="GeneratorSqlmap Coverage Results" MODIFIED="1538308352113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.lemon.pojo.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cost@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cost@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cost@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cost: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cost@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cost: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="t_users: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SenEmailController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/SenEmailController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>typeahead-bs2.min.js</find>
+      <find>query</find>
+      <find>jquery.min.map</find>
+      <find>jquery.min</find>
+      <find>jquery.mi</find>
+      <find>jquery.f</find>
+      <find>expenseTotal</find>
+      <find>expenseState</find>
+      <find>html</find>
+      <find>de</find>
+      <find>PageHelper</find>
+      <find>financeAudit</find>
+      <find>Date</find>
+      <find>user</find>
+      <find>j</find>
+      <find>jquery</find>
+      <find>main</find>
+      <find>replace</find>
+      <find>iframe</find>
+      <find>tab</find>
+      <find>salaryChart</find>
+      <find>protected</find>
+      <find>.ro</find>
+      <find>.row</find>
+      <find>image</find>
+      <find>images</find>
+      <find>insert</find>
+      <find>insert`</find>
+      <find>code</find>
+      <find>operation</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>com.lemon.pojo</replace>
+      <replace>shiro-version</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/CommonController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/utils/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/renvate.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/utils/filter/SystemFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/finance/salary/salarypayment_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/user/userinfo_update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/unauthorizedUrl.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/CommonController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resource/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resource/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/user/userinfo_show.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/user/userinfo_add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/cost/cost_add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/cost/cost_update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/cost/cost_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/CostController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/finance/mapper/TSalaryRecordMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/finance/web/controller/FinanceController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/utils/dateUtils/CustomDateFoemat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/utils/dateUtils/CustomDateFormat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/finance/web/controller/SalaryController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/finance/salary/salarypayment_add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/expense/managerAudit/expense_audit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resource/bootstrap-fileinput/js/fileinput_locale_zh.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/expense/expense/expense_add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/pojo/TExpense.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/expense/web/controller/ExpenseManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/expense/mapper/TExpenseMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/expense/expense/expense_show.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/path.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/ssm-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mail.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/MailTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/pojo/TUsers.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/ssm-shiro.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/SystemController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/system/service/TUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/system/mapper/TUsersMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/system/service/impl/TUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/system/mapper/TUsersMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/SenEmailController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/utils/shiro/CustomReam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lemon/system/service/impl/MailTask.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.4-bin\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_maven_shiro_lemon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_maven_shiro_lemon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_maven_shiro_lemon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_maven_shiro_lemon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="war" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-225" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <sortByType ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lemon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven_shiro_lemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven_shiro_lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="progress&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_20/jre/lib/deploy.jar!/com/sun/deploy/resources/image/progress.png&#10;realm&#9;FILE&#9;jar://D:/Maven/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/realm/AuthorizingRealm.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="F:/实战项目/实战项目/乐优视频/leyou-manage-web" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\idea\lemon\ssm_maven_shiro_lemon\src\main\webapp\WEB-INF\view" />
+      <recent name="F:\idea\lemon\ssm_maven_shiro_lemon\src\main\java\com\lemon\system\mapper" />
+      <recent name="F:\idea\lemon\ssm_maven_shiro_lemon\src\main\webapp\resource" />
+      <recent name="F:\idea\lemon\ssm_maven_shiro_lemon\src\main\webapp" />
+      <recent name="F:\idea\lemon\ssm_maven_shiro_lemon\src\main\resources\spring" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lemon.expense.service" />
+      <recent name="com.lemon.utils.context" />
+      <recent name="com.lemon.utils.web.filter" />
+      <recent name="com.lemon.utils" />
+      <recent name="com.lemon.system.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\idea\lemon\ssm_maven_shiro_lemon\src\main\webapp\WEB-INF\view" />
+      <recent name="F:\idea\lemon\ssm_maven_shiro_lemon\src\main\webapp\resource\img" />
+      <recent name="F:\idea\lemon\ssm_maven_shiro_lemon\src\main\webapp\resource\js" />
+      <recent name="F:\idea\lemon\ssm_maven_shiro_lemon\src\main\webapp\resource\css" />
+      <recent name="F:\idea\lemon\ssm_maven_shiro_lemon\src\main\java\com\lemon\system\web\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat8">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ssm_maven_shiro_lemon [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_ssm_maven_shiro_lemon" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53037" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50104" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+    </configuration>
+    <configuration name="tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.39" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ssm_maven_shiro_lemon:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm_maven_shiro_lemon_2" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53037" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.tomcat8" />
+      <item itemvalue="Maven.ssm_maven_shiro_lemon [tomcat7:run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.ssm_maven_shiro_lemon [tomcat7:run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\23853\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f26b91ca-75dd-4770-a7f2-ee72655ac83c" name="Default" comment="" />
+      <created>1538307644296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538307644296</updated>
+      <workItem from="1538307647551" duration="6789000" />
+      <workItem from="1538315874349" duration="7815000" />
+      <workItem from="1538326832564" duration="486000" />
+      <workItem from="1538363417580" duration="4948000" />
+      <workItem from="1538370565872" duration="2964000" />
+      <workItem from="1538374290201" duration="13224000" />
+      <workItem from="1538388535512" duration="4900000" />
+      <workItem from="1538394933457" duration="8909000" />
+      <workItem from="1538405818828" duration="1836000" />
+      <workItem from="1538407687443" duration="3035000" />
+      <workItem from="1538413497124" duration="3622000" />
+      <workItem from="1538451800664" duration="11695000" />
+      <workItem from="1538467975599" duration="104000" />
+      <workItem from="1538468118382" duration="870000" />
+      <workItem from="1538471757304" duration="3318000" />
+      <workItem from="1538475547350" duration="1488000" />
+      <workItem from="1538477068354" duration="382000" />
+      <workItem from="1538477653592" duration="13965000" />
+      <workItem from="1538496214005" duration="3438000" />
+      <workItem from="1538539782101" duration="529000" />
+      <workItem from="1538540343920" duration="12664000" />
+      <workItem from="1538558389994" duration="7128000" />
+      <workItem from="1538571308406" duration="6011000" />
+      <workItem from="1538578463513" duration="993000" />
+      <workItem from="1538579761822" duration="1342000" />
+      <workItem from="1538581655696" duration="3704000" />
+      <workItem from="1538629940461" duration="6015000" />
+      <workItem from="1538716834480" duration="16799000" />
+      <workItem from="1538751237731" duration="2036000" />
+      <workItem from="1538793338542" duration="36894000" />
+      <workItem from="1538893500715" duration="3418000" />
+      <workItem from="1538897163594" duration="2559000" />
+      <workItem from="1538899784927" duration="9777000" />
+      <workItem from="1538924523498" duration="3151000" />
+      <workItem from="1538927709298" duration="2347000" />
+      <workItem from="1538965137377" duration="36811000" />
+      <workItem from="1539053672794" duration="8106000" />
+      <workItem from="1539063396170" duration="158000" />
+      <workItem from="1539063571783" duration="29220000" />
+      <workItem from="1539143476470" duration="4195000" />
+      <workItem from="1539228803590" duration="179000" />
+      <workItem from="1539258699195" duration="717000" />
+      <workItem from="1539313856676" duration="1853000" />
+      <workItem from="1539354990957" duration="22412000" />
+      <workItem from="1539423576394" duration="12678000" />
+      <workItem from="1539441551927" duration="27000" />
+      <workItem from="1539488254569" duration="21125000" />
+      <workItem from="1539514042942" duration="6594000" />
+      <workItem from="1539523832144" duration="8339000" />
+      <workItem from="1539574393666" duration="34941000" />
+      <workItem from="1539661006867" duration="12600000" />
+      <workItem from="1539687161961" duration="14928000" />
+      <workItem from="1539747779256" duration="34481000" />
+      <workItem from="1539844599434" duration="22094000" />
+      <workItem from="1539917340903" duration="31472000" />
+      <workItem from="1539968519325" duration="1574000" />
+      <workItem from="1540006161422" duration="31681000" />
+      <workItem from="1540044711296" duration="2350000" />
+      <workItem from="1540052366796" duration="741000" />
+      <workItem from="1540088699043" duration="5528000" />
+      <workItem from="1540095838204" duration="12121000" />
+      <workItem from="1540116544883" duration="659000" />
+      <workItem from="1540180843922" duration="3641000" />
+      <workItem from="1540198679934" duration="20587000" />
+      <workItem from="1540258254415" duration="1652000" />
+      <workItem from="1540276157128" duration="309000" />
+      <workItem from="1540357301554" duration="2877000" />
+      <workItem from="1540373255944" duration="1301000" />
+      <workItem from="1540378610573" duration="486000" />
+      <workItem from="1540438894752" duration="1851000" />
+      <workItem from="1540467108766" duration="78000" />
+      <workItem from="1540477275933" duration="625000" />
+      <workItem from="1540544360219" duration="10000" />
+      <workItem from="1540545235820" duration="4000" />
+      <workItem from="1540552638102" duration="1553000" />
+      <workItem from="1540729781057" duration="1315000" />
+      <workItem from="1540885638823" duration="4000" />
+      <workItem from="1541001604343" duration="14000" />
+      <workItem from="1541084154044" duration="6000" />
+      <workItem from="1541146811826" duration="52000" />
+      <workItem from="1541345401294" duration="29000" />
+      <workItem from="1541345633880" duration="35000" />
+      <workItem from="1541835916446" duration="2195000" />
+      <workItem from="1541898537131" duration="3376000" />
+      <workItem from="1542090327274" duration="561000" />
+      <workItem from="1542092592880" duration="1298000" />
+      <workItem from="1542199212394" duration="561000" />
+      <workItem from="1542206844581" duration="1000" />
+      <workItem from="1542348916502" duration="8000" />
+      <workItem from="1544952688426" duration="1994000" />
+      <workItem from="1546143456662" duration="1733000" />
+      <workItem from="1546160595667" duration="672000" />
+      <workItem from="1546239161852" duration="3212000" />
+      <workItem from="1547116637254" duration="802000" />
+      <workItem from="1552473481343" duration="2000" />
+      <workItem from="1552473601827" duration="1255000" />
+      <workItem from="1552475224007" duration="13323000" />
+      <workItem from="1552563195772" duration="3914000" />
+      <workItem from="1552567653907" duration="8783000" />
+      <workItem from="1552647644509" duration="22035000" />
+      <workItem from="1552797784954" duration="19358000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestAuto_test1 - 2018.10.01 at 22h 59m 09s.xml">
+      <configuration name="TestAuto.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAuto_test1 - 2018.10.01 at 23h 16m 28s.xml">
+      <configuration name="TestAuto.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAuto_test1 - 2018.10.02 at 01h 22m 58s.xml">
+      <configuration name="TestAuto.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAuto_test1 - 2018.10.02 at 01h 23m 08s.xml">
+      <configuration name="TestAuto.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAuto_test1 - 2018.10.02 at 01h 23m 28s.xml">
+      <configuration name="TestAuto.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAuto_test1 - 2018.10.02 at 14h 59m 22s.xml">
+      <configuration name="TestAuto.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest_test1 - 2018.10.02 at 15h 32m 53s.xml">
+      <configuration name="MenuTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest_test1 - 2018.10.02 at 15h 49m 34s.xml">
+      <configuration name="MenuTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest_test1 - 2018.10.02 at 15h 51m 20s.xml">
+      <configuration name="MenuTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest_test1 - 2018.10.02 at 18h 04m 16s.xml">
+      <configuration name="MenuTest.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="688251000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.18230563" side_tool="true" weight="0.4519774" />
+      <window_info anchor="bottom" id="Application Servers" order="6" sideWeight="0.37198392" weight="0.32909605" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.4986226" weight="0.07640751" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.49595687" weight="0.25737265" />
+      <window_info id="Structure" order="1" sideWeight="0.3220339" side_tool="true" weight="0.24396783" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.81099194" weight="0.2217514" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49262735" weight="0.5776836" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.8357909" weight="0.41666666" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" sideWeight="0.49865952" weight="0.32905984" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" x="25" y="472" width="1486" height="263" id="Run" order="2" sideWeight="0.81769437" type="FLOATING" visible="true" weight="0.6440678" />
+      <window_info anchor="bottom" id="Spring" order="16" sideWeight="0.49932975" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49804688" weight="0.32485875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6779661" visible="true" weight="0.25670242" />
+      <window_info id="Web" order="7" sideWeight="0.30967742" side_tool="true" weight="0.2751678" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" sideWeight="0.49932975" visible="true" weight="0.32909605" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5040431" side_tool="true" weight="0.26876676" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="9" sideWeight="0.49717513" side_tool="true" visible="true" weight="0.22989276" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Database Console" order="1" sideWeight="0.49932975" weight="0.32768363" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.4966488" weight="0.37146893" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="6" sideWeight="0.37198392" weight="0.32909605" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Database Console" order="1" sideWeight="0.49932975" weight="0.32768363" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="bottom" id="Spring" order="16" sideWeight="0.49932975" weight="0.32909605" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" x="25" y="472" width="1486" height="263" id="Run" order="2" sideWeight="0.81769437" type="FLOATING" weight="0.6440678" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5040431" side_tool="true" weight="0.26876676" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49804688" weight="0.32485875" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" sideWeight="0.49932975" visible="true" weight="0.32909605" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.18230563" side_tool="true" weight="0.4519774" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.8357909" weight="0.41666666" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49262735" weight="0.5776836" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="9" sideWeight="0.49717513" side_tool="true" visible="true" weight="0.22989276" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" sideWeight="0.49865952" weight="0.32905984" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.4986226" visible="true" weight="0.07640751" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.4966488" weight="0.37146893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6779661" visible="true" weight="0.25670242" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.49595687" weight="0.25737265" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info id="Web" order="7" sideWeight="0.30967742" side_tool="true" weight="0.2751678" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" sideWeight="0.3220339" side_tool="true" weight="0.24396783" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.81099194" visible="true" weight="0.2217514" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <dependency leave-enabled="true" master-id="0" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/lemon/finance/web/controller/SalaryController.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lemon/system/service/impl/MailTask.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="XBreakpointGroupingByClassRule" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <dependency id="0" leave-enabled="true" master-id="1" />
+          <properties />
+        </breakpoint>
+        <breakpoint enabled="true" type="javascript-exception">
+          <dependency id="1" />
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="297" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="expenseList.get(0).expensedesc" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/expense/mapper/TExpenseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3620">
+          <caret line="181" column="30" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/expense/web/controller/ExpenseManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/expense/expense/expense_show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="69" column="82" selection-start-line="69" selection-start-column="82" selection-end-line="69" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/expense/expense/expense_list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/expense/expense/expense_mylist.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/path.properties" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.19.RELEASE/spring-context-support-4.3.19.RELEASE.jar!/org/springframework/mail/javamail/JavaMailSenderImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/MessageTask.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/utils/pagingPlugin/filter/PaginationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/renvate.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="212" column="1" selection-start-line="212" selection-start-column="1" selection-end-line="212" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/service/impl/TCostServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/pojo/PoExpense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/pojo/TExpenseDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/pojo/TCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/pojo/TUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="155" column="37" lean-forward="true" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
+          <folding>
+            <element signature="e#3095#3096#0" expanded="true" />
+            <element signature="e#3153#3154#0" expanded="true" />
+            <element signature="e#3201#3202#0" expanded="true" />
+            <element signature="e#3238#3239#0" expanded="true" />
+            <element signature="e#3271#3272#0" expanded="true" />
+            <element signature="e#3325#3326#0" expanded="true" />
+            <element signature="e#3369#3370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/pojo/TAuditRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ssm-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/service/TCostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/druid.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://4dd11a2c-77fc-4d8f-a331-ac8d63a35de1/schema/cost/table/t_users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ssm-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/utils/shiro/CustomFormAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="23" column="73" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/CostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/SystemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/mapper/TUsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/realm/CachingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/service/TUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/utils/shiro/SystemOutFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="47" column="70" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/service/impl/TUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="e#1429#1430#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#2440#2441#0" expanded="true" />
+            <element signature="e#2503#2504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/authc/UsernamePasswordToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="61" column="15" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="15" />
+          <folding>
+            <element signature="e#2103#2104#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+            <element signature="e#2342#2343#0" expanded="true" />
+            <element signature="e#2383#2384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/authc/AuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/mapper/TCostMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/mapper/TMenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/mapper/TUsersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="76" column="30" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="524" column="31" lean-forward="true" selection-start-line="524" selection-start-column="31" selection-end-line="524" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/CommonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/utils/shiro/CustomReam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/service/impl/MailTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="50" column="64" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lemon/system/web/controller/SenEmailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ssm_maven_shiro_lemon:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (ssm_maven_shiro_lemon)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jquery-1.6.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ssm_maven_shiro_lemon</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-collections</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
